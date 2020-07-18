@@ -31,13 +31,13 @@ ScriptsOnlyBuild:
     - RPGM.UI.SpriteButton
     - RPGM.UI.SpriteUIElement
     - RPGM.UI.UserInterfaceAudio
-    - Readme
     - UnityEngine.Tilemaps.AnimatedTile
     - UnityEngine.Tilemaps.FenceTile
     Unity.2D.PixelPerfect.dll:
     - UnityEngine.U2D.PixelPerfectCamera
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -60,6 +60,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.Physics2DRaycaster
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Creator Kit - RPG/Scenes/Start RPG Scene.unity:
     - Class: 1
@@ -1020,5 +1022,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Creator Kit - RPG/Scenes/Start RPG Scene.unity
-  playerPath: D:/Unity Projects/Creator Kit RPG/Builds/Apple Hunter (Bare Bone Functional
-    Build)/Apple Hunter Bare Bone Functional.exe
+  playerPath: D:/Unity Projects/Creator Kit RPG/Builds/v0.2 Chicken Hunter/Chicken
+    Hunter Apples Passed, Chickens Lost.exe
